@@ -25,17 +25,6 @@
     display: none;
 }
 
-.dp{
-    
- width: 200px;
- height: 200px;
- background-image: url('https://www.google.co.in/search?q=tanumoy&source=lnms&tbm=isch&sa=X&ved=0ahUKEwighYGE6bvVAhWLKY8KHRpzCP8Q_AUICygC&biw=1301&bih=654#imgrc=VsIFyJBvSO2KiM:');
- background-size: cover;
- display: block;
-margin-left:30vw;
-margin-right:30vw;
-z-index:+1;
-}
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
@@ -59,6 +48,22 @@ z-index:+1;
 }
 
 
+.container{
+    margin-left:30vw;
+    margin-right:30vw;
+}
+
+.dp{
+    
+ width: 200px;
+ height: 200px;
+ background-image: url('https://www.google.co.in/search?q=tanumoy&source=lnms&tbm=isch&sa=X&ved=0ahUKEwighYGE6bvVAhWLKY8KHRpzCP8Q_AUICygC&biw=1301&bih=654#imgrc=VsIFyJBvSO2KiM:');
+ background-size: cover;
+ display: block;
+margin-left:5vw;
+margin-right:5vw;
+z-index:+1;
+}
 
 
 
