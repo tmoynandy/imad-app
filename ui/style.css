@@ -46,26 +46,38 @@
     text-align: left;
   }
 }
-
-
 .container{
-    width:400px;
-    height:290px;
-    margin-left:30vw;
-    margin-right:30vw;
+  width: 98.42vw;
+  height: 105vw;
+  background-size: cover;
+  position: fixed;
+  background-color: black;
+
+}
+
+.container1{
+    width:50vw;
+    height:40vw;
+    margin-left:25vw;
+    margin-right:25vw;
+    background-color: gray;
+    position:absolute;
 }
 
 .dp{
     
- width: 200px;
- height: 200px;
- background-image: url('https://www.google.co.in/search?q=tanumoy&source=lnms&tbm=isch&sa=X&ved=0ahUKEwighYGE6bvVAhWLKY8KHRpzCP8Q_AUICygC&biw=1301&bih=654#imgrc=VsIFyJBvSO2KiM:');
+ width: 20vw;
+ height: 20vw;
  background-size: cover;
  display: block;
+ position: absolute;
 
-margin-right:3vw;
-margin-left:5vw;
-z-index:+1;
+ border-radius: 100vw;
+ -webkit-border-radius: 100vw;
+ -moz-border-radius: 100vw;
+ margin-left: 15vw;
+ margin-right: 20vw;
+ padding-top: 10px;
 }
 
 
