@@ -20,6 +20,6 @@ function loadabout(){
       this.responseText;
       }  
     };
-    req.open("GET", "http://tmoynandycourses.imad.hasura-app.io/about.html", true);
+    req.open("GET", "http://tmoynandycourses.imad.hasura-app.io/ui/about.html", true);
   req.send();
 }
