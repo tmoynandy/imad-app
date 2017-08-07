@@ -25,6 +25,15 @@ app.get('/ui/about.html',function(req,res){
     res.sendFile(path.join(__dirname,'ui','about.html'));
 });
 
+app.get('/ui/about.html',function(req,res){
+    res.sendFile(path.join(__dirname,'ui','contact.html'));
+});
+
+app.get('/ui/about.html',function(req,res){
+    res.sendFile(path.join(__dirname,'ui','works.html'));
+});
+
+
 
 
 
