@@ -16,7 +16,7 @@ function loadabout(){
     // req.onreadystatechange detects change and calls function
     req.onreadystatechange=function(){
       if(this.readyState==4 && this.Status==200){
-          document.getElementsByClassName("container").innerHTML =
+          document.getElementsByClassName("container")[0].innerHTML =
       this.responseText;
       }  
     };
