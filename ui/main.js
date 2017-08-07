@@ -75,6 +75,6 @@ function loadindex(){
           document.getElementsByClassName("container")[0].innerHTML = this.responseText;//[0] because am calling elements..multiple gets returned but i want only one
       }  
     };
-    req.open("GET", "http://tmoynandycourses.imad.hasura-app.io/ui/index.html", true);
+    req.open("GET", "http://tmoynandycourses.imad.hasura-app.io", true);
   req.send();
 }
