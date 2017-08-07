@@ -82,3 +82,25 @@
 
 
 
+button {
+    background-color: white; /* Green */
+    border: none;
+    color: white;
+    padding: 1vw 1vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vw;
+    margin: 4vw 2vw;
+    margin-top: 30vw;
+    margin-left: 22vw;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
