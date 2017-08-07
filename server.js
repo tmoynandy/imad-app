@@ -33,6 +33,11 @@ app.get('/ui/works.html',function(req,res){
     res.sendFile(path.join(__dirname,'ui','works.html'));
 });
 
+app.get('/ui/tanu.html',function(req,res){
+    res.sendFile(path.join(__dirname,'ui','tanu.html'));
+});
+
+
 
 
 
