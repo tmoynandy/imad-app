@@ -7,3 +7,8 @@ function myFunction() {
         x.className = "topnav";
     }
 }
+
+var about=document.getElementById("about");
+about.onclick=function(){
+    
+};
