@@ -50,7 +50,7 @@
   width: 98.42vw;
   height: 105vw;
   background-size: cover;
-  position: fixed;
+  position: absolute;
   background-color: black;
 
 }
