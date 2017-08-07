@@ -16,8 +16,8 @@ function loadabout(){
     // req.onreadystatechange detects change and calls function
     req.onreadystatechange=function(){
       if(this.readyState==4 && this.Status==200){
-          document.getElementsByClassName("container")[0].innerHTML =
-      this.responseText;
+          console.log('in 200')
+          document.getElementsByClassName("container")[0].innerHTML = this.responseText;
       }  
     };
     req.open("GET", "http://tmoynandycourses.imad.hasura-app.io/ui/about.html", true);
