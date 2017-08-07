@@ -25,11 +25,11 @@ app.get('/ui/about.html',function(req,res){
     res.sendFile(path.join(__dirname,'ui','about.html'));
 });
 
-app.get('/ui/about.html',function(req,res){
+app.get('/ui/contact.html',function(req,res){
     res.sendFile(path.join(__dirname,'ui','contact.html'));
 });
 
-app.get('/ui/about.html',function(req,res){
+app.get('/ui/works.html',function(req,res){
     res.sendFile(path.join(__dirname,'ui','works.html'));
 });
 
