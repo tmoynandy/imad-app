@@ -60,3 +60,21 @@ function loadworks(){
     req.open("GET", "http://tmoynandycourses.imad.hasura-app.io/ui/works.html", true);
   req.send();
 }
+
+
+function loadindex(){
+    //a click event occured jeta loadabout k call kore
+    //now create an XMLHttpRequest object
+    var req= new XMLHttpRequest();
+    //now every time there is a change in state of the XMLHttpRequest, a function call is made
+    // req.onreadystatechange detects change and calls function
+    req.onreadystatechange=function(){
+        
+      if(this.readyState==4 && this.status==200){
+          console.log('in 200')
+          document.getElementsByClassName("container")[0].innerHTML = this.responseText;//[0] because am calling elements..multiple gets returned but i want only one
+      }  
+    };
+    req.open("GET", "http://tmoynandycourses.imad.hasura-app.io/ui/index.html", true);
+  req.send();
+}
