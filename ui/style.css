@@ -194,6 +194,7 @@ img {
 
 .article {
     text-align: left;
+    background-color:grey;
 }
 
 header {background: black;color:white;}
