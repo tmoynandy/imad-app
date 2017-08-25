@@ -123,11 +123,12 @@ button:hover {
     transition: 0.3s;
     width: 40%;
     border-radius: 5px;
-    background-color:green;
+    background-color:white;
+    margin-left:30vw;
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgb(204, 153, 0)
 }
 
 img {
