@@ -212,3 +212,28 @@ footer {background: #aaa;color:white;}
     .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
     footer {-webkit-order:3;order:3;}
 }
+
+.fcontainer{
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+.chatname{
+	width:45vw;
+	height: 25px;
+	padding: 1px;
+	
+}
+
+.chatmessages{
+	width:45vw;
+	height: 400px;
+	overflow-y: scroll;
+	padding: 2.5px;
+}
+
+.textbox{
+	width:45vw;
+	height: 40px;
+
+}
