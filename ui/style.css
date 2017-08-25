@@ -1,6 +1,7 @@
 .topnav {
     background-color: #333;
     overflow: hidden;
+    width : 95vw;
 }
 
 /* Style the links inside the navigation bar */
@@ -48,10 +49,8 @@
    
 
 .container {
-    padding: 2px 16px;
+    padding: 2px px;
 
-    right: 0;
-    top: 0;
 }
   
 .container{
