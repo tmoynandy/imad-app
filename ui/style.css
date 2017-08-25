@@ -214,26 +214,20 @@ footer {background: #aaa;color:white;}
 }
 
 .fcontainer{
-	margin-left: 35%;
-	margin-right: 35%;
+	margin-top:10vw;
 }
 
 .chatname{
-	width:45vw;
+	width:50vw;
 	height: 25px;
 	padding: 1px;
 	
 }
 
-.chatmessages{
-	width:45vw;
-	height: 400px;
-	overflow-y: scroll;
-	padding: 2.5px;
-}
+
 
 .textbox{
-	width:45vw;
-	height: 40px;
+	width:50vw;
+	height: 90px;
 
 }
