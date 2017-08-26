@@ -1,5 +1,5 @@
 .topnav {
-    background-color: #252c52;
+    background-color: #292c2f;
     overflow: hidden;
     width:;
 }
@@ -69,13 +69,13 @@
 .dp{
     
  width: 25vw;
- height: 25vw;
+ height: 35vw;
  background-size: cover;
  display: block;
  position: absolute;
 
  border-radius: 100vw;
- -webkit-border-radius: 100vw;
+ -webkit-border-radius: 80vw;
  -moz-border-radius: 100vw;
   margin-left: 35vw;
     margin-right: 35vw;
