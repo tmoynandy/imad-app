@@ -1,5 +1,5 @@
 .topnav {
-    background-color: #333;
+    background-color: #252c52;
     overflow: hidden;
     width:;
 }
@@ -52,6 +52,7 @@
    
     margin-right:2px;
     margin-right:2px;
+    background :#18bc9c
 
 }
   
@@ -195,12 +196,12 @@ img {
 
 .article {
     text-align: left;
-    background-color:grey;
+    background-color:#9bb57c;
 }
 
-header {background: black;color:white;}
+header {background: #252c52;color:#fff;height:50px;}
 footer {background: #aaa;color:white;}
-.nav {background:#eee;}
+.nav {background:#8d9398;}
 
 .nav ul {
     list-style-type: none;
