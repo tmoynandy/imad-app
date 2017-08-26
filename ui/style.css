@@ -85,7 +85,7 @@
 
 
 
-button {
+.button {
     background-color: white; /* Green */
     border: none;
     color: white;
@@ -101,7 +101,7 @@ button {
 
 }
 
-button:hover {
+.button:hover {
     background-color: #4CAF50;
     color: white;
 }
