@@ -13,9 +13,38 @@ app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
+app.get('/ui/style.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'freelancer.css'));
+});
+
+app.get('/ui/style.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'freelancer.min.css'));
+});
+
+
 app.get('/ui/main.js',function(req,res){
     res.sendFile(path.join(__dirname,'ui','main.js'));
 });
+
+app.get('/ui/main.js',function(req,res){
+    res.sendFile(path.join(__dirname,'ui','contact_me.js'));
+});
+
+app.get('/ui/main.js',function(req,res){
+    res.sendFile(path.join(__dirname,'ui','freelancer.js'));
+});
+
+app.get('/ui/main.js',function(req,res){
+    res.sendFile(path.join(__dirname,'ui','freelancer.min.js'));
+});
+
+app.get('/ui/main.js',function(req,res){
+    res.sendFile(path.join(__dirname,'ui','jqBootstrapValidation.js'));
+});
+
+
+
+
 
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
