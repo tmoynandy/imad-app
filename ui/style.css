@@ -90,20 +90,14 @@ button {
     background-color: white; /* Green */
     border: none;
     color: white;
-    padding: 1vw 1vw;
+    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 1vw;
-    margin: 4vw 2vw;
-    margin-top: 3vw;
-    margin-left: 40vw;
-    margin-right: 35vw;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
+    font-size: 16px;
+    margin: 4px 2px;
     cursor: pointer;
-    height:10vw;
-    width:15vw;
+    border-radius: 2px;
 
 }
 
