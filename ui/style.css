@@ -61,6 +61,7 @@
   background-size: cover;
   position: absolute
   background-color: black;
+  margin-top:25px;
 
 }
 
@@ -250,7 +251,7 @@ footer{
 	text-align: left;
 
 	padding: 50px 60px 40px;
-	margin-top: 80px;
+	margin-top: 25px;px;
 	overflow: hidden;
 }
 
