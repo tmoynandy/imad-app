@@ -86,7 +86,10 @@
       $('.ajax_links').click(function(e){
          e.preventDefault();
          var url = $(this).attr('href');
-         $('.container').load(url);
+        //  $('.container').load(url);
+        $.get(url, function(data){
+            $('.container').html(data);
+        })
       });
       
       
