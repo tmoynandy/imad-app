@@ -79,3 +79,5 @@ function loadindex(){
     req.open("GET", "http://tmoynandycourses.imad.hasura-app.io/ui/index_content.html" , true);
   req.send();
 }
+
+
