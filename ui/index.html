@@ -21,9 +21,9 @@
     </head>
     <body class="abc" >
         <div class="topnav" id="myTopnav">
-              <a class="ajax_links" href="ui/index_content.html" >Tanumoy</a>
-              <a class="ajax_links" href="ui/about.html" class="about" >About</a>
-              <a class="ajax_links" href="ui/works.html" >Works</a>
+              <a class="ajax_links" href="/ui/index_content.html" >Tanumoy</a>
+              <a class="ajax_links" href="/ui/about.html" class="about" >About</a>
+              <a class="ajax_links" href="/ui/works.html" >Works</a>
               <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
             <div class="container">
@@ -85,6 +85,8 @@
   <script>
       $('.ajax_links').click(function(e){
          e.preventDefault();
+         var url = $(this).attr('href');
+         alert(url);
       });
       
       
