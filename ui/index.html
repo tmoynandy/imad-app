@@ -21,9 +21,9 @@
     </head>
     <body class="abc" >
         <div class="topnav" id="myTopnav">
-              <a href="#home" onclick="loadindex()">Tanumoy</a>
-              <a href="#news" class="about" onclick="loadabout()">About</a>
-              <a href="#about" onclick="loadworks()">Works</a>
+              <a class="ajax_links" href="ui/index_content.html" >Tanumoy</a>
+              <a class="ajax_links" href="ui/about.html" class="about" >About</a>
+              <a class="ajax_links" href="ui/works.html" >Works</a>
               <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
             <div class="container">
@@ -73,10 +73,22 @@
 				</form>
 
 			</div>
+			   
 			
 			<script>
 			    loadindex();
 			</script>
+			<script
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
+  <script>
+      $('.ajax_links').click(function(){
+         alert("bhaai") 
+      });
+      
+      
+  </script>
 
 		</footer>
 
