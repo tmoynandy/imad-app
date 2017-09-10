@@ -86,7 +86,7 @@
 
 
 .button {
-    background-color: #98768e; /* Green */
+    background-color:  #d63d69;/* Green */
     border: none;
     color: white;
     padding: 16px 32px;
@@ -103,7 +103,7 @@
 }
 
 .button:hover {
-    background-color: #d63d69;
+    background-color: #98768e;
     color: white;
 }
 
