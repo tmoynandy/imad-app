@@ -99,10 +99,11 @@
     transition-duration: 0.4s;
     cursor: pointer;
     border: 2px solid #4CAF50;
+    margin-left:25vw;
 }
 
-.button:hover {
-    background-color: #4CAF50;
+.button: hover {
+    background-color: #ffeb3b;
     color: white;
 }
 
