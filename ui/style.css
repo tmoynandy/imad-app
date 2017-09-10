@@ -86,7 +86,7 @@
 
 
 .button {
-    background-color: #4CAF50; /* Green */
+    background-color: #98768e; /* Green */
     border: none;
     color: white;
     padding: 16px 32px;
@@ -98,12 +98,12 @@
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
-    border: 2px solid #4CAF50;
+    
     margin-left:25vw;
 }
 
 .button: hover {
-    background-color: #ffeb3b;
+    background-color: #d63d69;
     color: white;
 }
 
