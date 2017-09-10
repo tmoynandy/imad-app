@@ -19,6 +19,7 @@ function loadabout(){
       if(this.readyState==4 && this.status==200){
           console.log('in 200')
           document.getElementsByClassName("container")[0].innerHTML = this.responseText;
+          // select the container in this document                  <= put everything recieved over the xhr call in the container 
       }  
     };
     req.open("GET", "http://tmoynandycourses.imad.hasura-app.io/ui/about.html", true);
