@@ -30,6 +30,7 @@
   .topnav a.icon {
     float: right;
     display: block;
+  
   }
 }
 @media screen and (max-width: 600px) {
@@ -86,20 +87,22 @@
 
 
 .button {
-    background-color:  #d63d69;/* Green */
+    background-color:  #d63d69;
     border: none;
     color: white;
-    padding: 16px 32px;
-    text-align: center;
+    
+    width:20vw;
+    height:8vw;
     text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
+    border-radius:8px;
+    font-size: large;
     margin: 4px 2px;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
+   
     
-    margin-left:25vw;
+    margin-left:40%;
 }
 
 .button:hover {
